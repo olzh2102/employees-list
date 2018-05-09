@@ -1,5 +1,13 @@
 # employee-list
 
+User / Employee logins in with his/her email and password in order to see employees list and their current position. Each person's profile's details can be changed, updated or deleted. 
+
+## Used Technologies: 
+* VueJS
+* Firestore
+
+The project was done to practice routing handling in VueJS and better understanding firestore. 
+
 > A Vue.js project
 
 ## Build Setup
