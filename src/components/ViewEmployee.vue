@@ -8,6 +8,11 @@
     </ul>
     <router-link to="/" class="btn">Back</router-link>
     <button @click="deleteEmployee" to="/" class="btn red">Delete</button>
+    <div class="fixed-action-btn">
+      <router-link :to="{ name: 'EditEmployee', params: { employee_id: employee_id } }" class="btn-floating btn-large red">
+        <i class="material-icons edit">edit</i>
+      </router-link>
+    </div>
   </div>
 </template>
 

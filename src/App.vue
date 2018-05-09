@@ -21,7 +21,7 @@ export default {
 <style>
 body {
   font-family: 'Molengo', sans-serif;
-  background: #A1A6B4;
+  background: #D8E2DC;
 }
 .container {
   max-width: 1000px;
